@@ -14,11 +14,7 @@ class Program
             for (int j = 0; j < n; j++)
                 matrix[i, j] = rnd.Next(-10, 11);
 
-  int[,] test2 = new int[5, 5];
-for (int i = 0; i < 5; i++)
-    for (int j = 0; j < 5; j++)
-        test2[i, j] = -1;
-matrix = test2;
+
         Console.WriteLine("Матрица:");
         PrintMatrix(matrix);
 
