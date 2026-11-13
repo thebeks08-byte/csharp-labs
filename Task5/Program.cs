@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
         int nomer = 3;
         int n = 5;
         int[,] matrix = new int[n, n];
