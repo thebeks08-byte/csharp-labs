@@ -8,7 +8,7 @@ class Program
         Console.InputEncoding = Encoding.UTF8;
         Console.OutputEncoding = Encoding.UTF8;
 
-        string text;
+        string? text;
         do
         {
             Console.Write("Жолды енгізіңіз: ");
